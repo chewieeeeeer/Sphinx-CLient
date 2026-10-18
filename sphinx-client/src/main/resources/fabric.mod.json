@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "sphinxclient",
+  "version": "${version}",
+  "name": "Sphinx Client",
+  "description": "Sphinx Client - custom dark main menu. PLAY DIFFERENT.",
+  "authors": ["Sphinx Client"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/sphinxclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.sphinx.client.SphinxClient"]
+  },
+  "mixins": ["sphinxclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
